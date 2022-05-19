@@ -8,7 +8,7 @@ function Globe () {
     async function fetchMyAPI () {
       const gkview = new GlobeKitView(globeRef.current, {
         apiKey: 'gk_fbb5b82000622ec2c4746c659bc539983d5789c38e0d7af617379e6b40dac27c308c27a2ec09fcb087ed5b968e0b3727b44f28b13dfbe2c550649de4025d0161',
-        wasmPath: 'https://fuselogo.s3.eu-central-1.amazonaws.com/gkweb_bg.wasm',
+        wasmPath: 'https://pbs.twimg.com/profile_images/1513633411121958912/MEcuhHvW_400x400.jpg',
         attributes: {
           // alpha: false,
           // attributes: {
