@@ -82,11 +82,11 @@ const menuItems = [
   {
     title: <FormattedMessage defaultMessage='Community' />,
     items: [
-      {
+    /*   {
         title: <FormattedMessage defaultMessage='Github' />,
         icon: Github,
         url: 'https://github.com/fuseio'
-      },
+      }, */
       {
         title: <FormattedMessage defaultMessage='Twitter' />,
         icon: Twitter,
@@ -195,7 +195,7 @@ function MobileMenu ({ history }) {
             <div className='line' />
             <div className='grid-y align-top align-left  cell shrink'>
               <div className='list__item' onClick={() => history.push('/ecosystem')}>
-                Ecosystem
+                Ecosistema
               </div>
               <SelectLanguage />
             </div>

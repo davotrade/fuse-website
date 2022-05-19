@@ -59,7 +59,7 @@ const SectionTwo = () => {
                   <div className='image'><img src={walletApp} /></div>
                   <div className='content__text'>
                     <FormattedMessage
-                      defaultMessage='<span>Fuse Wallet </span><span>|</span> <span>for users</span>
+                      defaultMessage='<span>Smart Wallet </span><span>|</span> <span>for users</span>
                       {newLine}
                       An easy to use cross-platform {newLine} mobile wallet.'
                       values={{

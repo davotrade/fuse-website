@@ -15,9 +15,8 @@ const items = [
     Text: () => (
       <div className='item__text'>
         <FormattedMessage
-          defaultMessage='An open-source, <span>mobile alternative</span> to legacy banking that
-        allows anyone anywhere in the world to access digital payments and
-        decentralized finance.'
+          defaultMessage='Métodos de pago ABT ( tickets basados en Cuenta) permiten utilizar tu cédula,tarjeta pregpagada , <span>aplicación mobil</span> al abordar una unidad de transporte y pagar facilmente
+        '
           values={{
             span: (chunks) => <span>{chunks}</span>
           }}
@@ -28,13 +27,12 @@ const items = [
   {
     icon: BusinessSmall,
     image: Business,
-    title: <FormattedMessage defaultMessage="Plug 'n' Play" />,
+    title: <FormattedMessage defaultMessage="Control y transparencia " />,
     Text: () => (
       <div className='item__text'>
         <FormattedMessage
-          defaultMessage='A <span>no-code</span> platform for communities and businesses to
-          build new economic models, leveraging powerful tools and APIs in a low
-          entry sandbox.'
+          defaultMessage='Un <span>sistema transpartente</span> permite conocer la recaudación en todo momento y reduce significativamente
+          la evasión tanto por actores externos como internos.'
           values={{
             span: (chunks) => <span>{chunks}</span>
           }}
@@ -45,13 +43,12 @@ const items = [
   {
     icon: PaymentsNetworkSmall,
     image: PaymentsNetwork,
-    title: <FormattedMessage defaultMessage='Built for Scale' />,
+    title: <FormattedMessage defaultMessage='Decentralizado' />,
     Text: () => (
       <div className='item__text'>
         <FormattedMessage
-          defaultMessage='A <span>fast, decentralized</span> payment network that offers Ethereum
-          smart contract capabilities and enables anyone to have ownership in the
-          infrastructure.'
+          defaultMessage='Una <span>blockchain consorciada</span> crea un entorno de pago único enre usuarios, puntos de venta y unidades de transporte, es fácil de operar
+        disminuyendo hasta en un 60% los costos en comparación con soluciones propietarias'
           values={{
             span: (chunks) => <span>{chunks}</span>
           }}

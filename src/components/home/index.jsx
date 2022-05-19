@@ -13,10 +13,10 @@ const HomePage = () => {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
-      <SectionFive />
+     {/*  <SectionFive />
       <SectionFour />
       <SectionSix />
-      <ContactUs />
+      <ContactUs /> */}
     </>
   )
 }

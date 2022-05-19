@@ -11,10 +11,10 @@ const socialLinks = [
     url: 'https://medium.com/fusenet',
     icon: Medium
   },
-  {
+ /*  {
     url: 'https://github.com/fuseio',
     icon: GitHub
-  },
+  }, */
   {
     url: 'https://twitter.com/fuse_network',
     icon: Twitter

@@ -26,9 +26,9 @@ const Button = ({ link, type = 'primary', text }) => {
 
 const Banner = () => {
   const { data = { data: 0 } } = useFetch('https://studio.fuse.io/api/v1/communities/count', {}, [])
-  const transactionCounter = useCounter(45161617)
+  const transactionCounter = useCounter(251012)
   const communitiesCounter = useCounter(data.data)
-  const walletsCounter = useCounter(951390)
+  const walletsCounter = useCounter(1030000)
 
   return (
     <section className='info_banner__wrapper'>
@@ -40,7 +40,7 @@ const Banner = () => {
                 <span>{transactionCounter}</span>
               </VisibilitySensor>
               &nbsp;
-              <FormattedMessage defaultMessage='Transactions' />
+              <FormattedMessage defaultMessage='Transacciones' />
             </div>
           </div>
           <hr className='divier' />
@@ -50,7 +50,7 @@ const Banner = () => {
                 <span>{walletsCounter}</span>
               </VisibilitySensor>
               &nbsp;
-              <FormattedMessage defaultMessage='Wallets' />
+              <FormattedMessage defaultMessage='Pasajeros' />
             </div>
           </div>
           <hr className='divier' />
@@ -60,7 +60,7 @@ const Banner = () => {
                 <span>{communitiesCounter}</span>
               </VisibilitySensor>
               &nbsp;
-              <FormattedMessage defaultMessage='Communities' />
+              <FormattedMessage defaultMessage='Unidades' />
             </div>
           </div>
           <hr className='divier' />
@@ -71,7 +71,7 @@ const Banner = () => {
                 target='_blank'
                 href='https://explorer.fuse.io/'
               >
-                <FormattedMessage defaultMessage='View stats' />
+                <FormattedMessage defaultMessage='Ver estadísticas' />
               </a>
             </div>
           </div>
@@ -81,19 +81,19 @@ const Banner = () => {
   )
 }
 
-const SectionOne = () => {
+const SectionOne = () => {            //mensajes globo//
   return (
     <section className='section-A'>
       <div className='section-A__wrapper'>
         <div className='section-A__container'>
           <div className='section-A__main'>
             <h1 className='main_title'>
-              <FormattedMessage tagName='a' defaultMessage='Infrastructure for ' />
-              <FormattedMessage tagName='a' defaultMessage='Open Source Money' />
+              <FormattedMessage tagName='a' defaultMessage='SmartBus ' />
+              <FormattedMessage tagName='a' defaultMessage='Web3 Fare Collection' />
             </h1>
             <p className='section-A__text'>
               <FormattedMessage
-                defaultMessage='Launch community-centric payment systems and {newLine} token economies on an Ethereum-compatible {newLine} blockchain.'
+                defaultMessage='El primer sistema de recaudacion automática de trasporte urbano basado en blockchain  {newLine} Movility as Service {newLine} Maas y BaaS'
                 values={{
                   newLine: <br />,
                   b: (chunks) => <b>{chunks}</b>
@@ -153,9 +153,9 @@ const SectionOne = () => {
                   creation: 6,
                   lat: 36.1699,
                   lon: -110.1398,
-                  card_title: '<b> Las Vegas</b>',
+                  card_title: '<b> Quito- Ecuador</b>',
                   card_flag: 'data:image/jpg;base64,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',
-                  card_subtitle: '<b>300 USD for Wedding &#128141</b>'
+                  card_subtitle: '<b>0.50 Pagado en Bus N1 Disco 3 &#128141</b>'
                 }
               ]}
             />

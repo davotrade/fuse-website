@@ -10,11 +10,11 @@ import Arrow from '@/assets/images/dropdown/drop_arrow.svg'
 import { FormattedMessage } from 'react-intl'
 
 const items = [
-  {
+  /* {
     title: 'Github',
     icon: Github,
     url: 'https://github.com/fuseio'
-  },
+  }, */
   {
     title: 'Twitter',
     icon: Twitter,

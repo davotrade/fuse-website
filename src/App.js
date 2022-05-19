@@ -50,7 +50,7 @@ const App = () => {
           <IntlProvider
             messages={MESSAGES[lang]}
             locale={lang}
-            defaultLocale='en'
+            defaultLocale='en'   //idioma//
           >
             <Provider store={store}>
               <ConnectedRouter history={history}>

@@ -7,7 +7,7 @@ const items = [
     title: 'Getting started',
     items: [
       {
-        title: 'Fuse Studio',
+        title: 'Panel de Control de Operaciones',
         url: 'https://studio.fuse.io/'
       },
       {

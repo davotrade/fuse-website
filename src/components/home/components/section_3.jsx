@@ -29,12 +29,12 @@ const StudioFloor = () => {
               <img src={StudioIcon} />
               &nbsp;
               <span>
-                <FormattedMessage defaultMessage='Fuse Studio' />
+                <FormattedMessage defaultMessage='SmartBUS panel' />
               </span>
             </div>
             <h1 className='studio_floor__title'>
               <FormattedMessage
-                defaultMessage='Customize your own {newLine} wallet and currency'
+                defaultMessage='Control {newLine} de todas las operaciones de cobro'
                 values={{
                   newLine: <br />
                 }}
@@ -42,21 +42,21 @@ const StudioFloor = () => {
             </h1>
             <p className='studio_floor__text'>
               <FormattedMessage
-                defaultMessage='Zero Coding Launch Platform for Entrepreneurs and Impact
-              Leaders.'
+                defaultMessage='Una aplicación web que permite controlar en tiempo real la recaudacion 
+                de cada unidad , por cooperativa y en modalidad caja común.'
 
               />
             </p>
 
             <ul className='props'>
               <li>
-                <FormattedMessage defaultMessage='Mint your own token in minutes.' />
+                <FormattedMessage defaultMessage='Inscribe unidades en cuestion de minutos.' />
               </li>
               <li>
-                <FormattedMessage defaultMessage='Activate fiat on ramps.' />
+                <FormattedMessage defaultMessage='Revisa operaciones de recaudacion y venta.' />
               </li>
               <li>
-                <FormattedMessage defaultMessage='Grow your user base with powerful tools and plugins.' />
+                <FormattedMessage defaultMessage='Se integra mediante APIs a sistemas de ayuda a la explotacion SAE.' />
               </li>
             </ul>
             <div className='launch'>
@@ -89,7 +89,8 @@ const FuseWalletFloor = () => {
           </div>
           <h1 className='wallet_floor__title'>
             <FormattedMessage
-              defaultMessage='Engage early users {newLine} for rapid growth'
+              defaultMessage='Cambiamos el paradigma del pago mobil, con una solución innovadora 
+              y accesible '
               values={{
                 newLine: <br />
               }}
@@ -97,20 +98,20 @@ const FuseWalletFloor = () => {
           </h1>
           <p className='wallet_floor__text'>
             <FormattedMessage
-              defaultMessage='Onboard your community members with a personalized wallet
-            experience.'
+              defaultMessage='Registra a tus usuarios de una manera rapida y personalizada, cada usuario puede optar
+              por una wallet, tarjeta reutilizable o incluso su cédula de identidad ( ultima versión).'
 
             />
           </p>
           <ul className='props'>
             <li>
-              <FormattedMessage defaultMessage='Highly customizable.' />
+              <FormattedMessage defaultMessage='Recarga saldo usando Payphone o Tu Tarjeta de Débito/Crédito.' />
             </li>
             <li>
-              <FormattedMessage defaultMessage='User-owned data.' />
+              <FormattedMessage defaultMessage='Puedes pasar saldo entre usuarios.' />
             </li>
             <li>
-              <FormattedMessage defaultMessage='Send and receive money instantly.' />
+              <FormattedMessage defaultMessage='Recarga también en puntos de venta físicos.' />
             </li>
           </ul>
           <div className='wallet_floor__links'>
@@ -131,13 +132,13 @@ const FuseWalletFloor = () => {
                 <img alt='android' src='./images/playstore.png' />
               </a>
 
-              <a
+            {/*   <a
                 rel='noreferrer noopener'
                 target='_blank'
                 href='https://github.com/fuseio/fuse-wallet2.0'
               >
                 <img alt='twitter' src='./images/github_large.png' />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -161,7 +162,7 @@ const FuseSwapFloor = () => {
               </div>
               <h1 className='fuseswap_floor__title'>
                 <FormattedMessage
-                  defaultMessage='Trade and earn {newLine} without friction'
+                  defaultMessage='Se integra con la banca  {newLine} sin fricciones'
                   values={{
                     newLine: <br />
                   }}
